@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/StudentProfile"
+        android:title="Student"
+        android:actionLayout="@layout/toolbar"
+        />
+
+    <item
+        android:id="@+id/CompanyProfile"
+        android:visible="true"
+        android:title="Company" />
+
+
+
+
+
+</menu>

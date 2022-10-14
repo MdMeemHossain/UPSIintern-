@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompanyprofileActivity2">
+    <ImageView
+        android:id="@+id/imageViewh1"
+        android:layout_width="wrap_content"
+        android:layout_height="83dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="598dp"
+        app:srcCompat="@drawable/titlelogo"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/nameform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="249dp"
+        android:layout_marginBottom="502dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/studentid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="249dp"
+        android:layout_marginBottom="440dp"
+        android:ems="10"
+        android:hint="Registration Date"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/faculty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="249dp"
+        android:layout_marginBottom="387dp"
+        android:ems="10"
+        android:hint="Registration Number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/icpassportNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="249dp"
+        android:layout_marginBottom="339dp"
+        android:ems="10"
+        android:hint="Manager"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/emailcontactNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="249dp"
+        android:layout_marginBottom="287dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/permanentaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="249dp"
+        android:layout_marginBottom="236dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/currentaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="249dp"
+        android:layout_marginBottom="188dp"
+        android:ems="10"
+        android:hint="Vision"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/savebutton"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginBottom="88dp"
+        android:background="@color/teal_700"
+        android:text="Save"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/returnbuttoncp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginBottom="24dp"
+        android:background="@color/teal_200"
+        android:text="Show"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+</RelativeLayout>
